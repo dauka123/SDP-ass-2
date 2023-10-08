@@ -4,9 +4,4 @@ public abstract class CarDecorator implements Car {
     public CarDecorator(Car car) {
         this.car = car;
     }
-
-    /*@Override
-    public int cost() {
-        return car.cost();
-    }*/
 }
